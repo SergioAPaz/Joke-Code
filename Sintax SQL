@@ -1,0 +1,5 @@
+For to fix the problem of:
+
+sqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in......
+
+when sometable make a query, maybe is a wrong sintax in the query variable. spaces or quotes.
