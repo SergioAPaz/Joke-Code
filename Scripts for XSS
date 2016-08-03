@@ -1,11 +1,9 @@
-Codigo para ingresar a forms de websites and test that (XSS).
+Code for forms of websites and test (XSS).
 
-<script>window.onload = function(){alert("ecy");};</script>
+<script>window.onload = function(){alert("Hola soy un script");};</script>
 
-
-
-El codigo arrojara una ventana de alerta en dado caso que la tabla en donde se muestren los comentarios no 
-esten validados correctamente ya sea con entidades HTML, Inyeccion SQL, Expresiones regulares. 
+The code displays an alert if the table where comments are not properly validated this either 
+HTML entities, SQL Injection, Regular Expressions are displayed.
 
 por si hay duda no no lleva ; al final
 -----------------------------------------------------------------------
