@@ -1,0 +1,7 @@
+Fix chrome resolution issue
+
+In properties of .ink (Direct access) in destiny:
+
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" /high-dpi-support=1 /force-device-scale-factor=1
+
+Wiht this the resolution of chrome was returned to the native resolution of the pc.
