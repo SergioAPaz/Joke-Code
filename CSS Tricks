@@ -1,0 +1,24 @@
+The Scope css:
+
+<div>
+    <style scoped>
+        @import "StylesForNavbar.css";
+    </style>
+    
+    <div>
+      ...
+    </div>
+</div>
+
+Scopes can be of great help to apply css to a div in specific, but the div that has the Scope can be affected with the external css's
+as a css of the html master page.
+
+---------------------------------------------------
+
+Example of master page like ASP.NET in PHP:
+
+<body>
+<div><?php include('menu.php');?></div>
+<div><?php include('footer.php');?></div>
+</body>
+
